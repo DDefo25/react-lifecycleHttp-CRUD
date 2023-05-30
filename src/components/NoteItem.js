@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-import { useState, useEffect } from 'react';
 
 export default function NoteItem({note, onRemove}) {
     const {content} = note;
